@@ -1,0 +1,13 @@
+<h1>Primeiro Projeto</h1>
+<app-input></app-input>
+<app-list-view></app-list-view>
+<app-title></app-title>
+<app-check-sample *ngIf="isAliveCheckSample"></app-check-sample>
+<button (click)="disposeCheckSample()">Destruir</button>
+<button (click)="resetCheckSample()">Voltar</button>
+<router-outlet></router-outlet>
+<app-card></app-card>
+<app-comp-atributos>
+  <h1>Testando ngContent</h1>
+  <p>Testando ngContent</p>
+</app-comp-atributos>
