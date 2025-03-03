@@ -7,7 +7,11 @@ import { CheckSampleComponent } from './check-sample/check-sample.component';
 import { CardComponent } from './card/card.component';
 import { CompAtributosComponent } from './comp-atributos/comp-atributos.component';
 import {FormsModule}from '@angular/forms'
-import { ListaModule} from './lista/lista.module'
+import { ListaModule} from './lista/lista.module';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { MenuTitleComponent } from './components/menu-title/menu-title.component';
+import { SmallCardComponent } from './components/small-card/small-card.component';
+import { BigCardComponent } from './components/big-card/big-card.component'
 
 @NgModule({
   declarations: [
@@ -16,6 +20,10 @@ import { ListaModule} from './lista/lista.module'
     CheckSampleComponent,
     CardComponent,
     CompAtributosComponent,
+    MenuBarComponent,
+    MenuTitleComponent,
+    SmallCardComponent,
+    BigCardComponent,
   ],
   imports: [
     BrowserModule,
