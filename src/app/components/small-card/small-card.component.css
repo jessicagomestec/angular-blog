@@ -1,0 +1,29 @@
+.container__small-card{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.container__small-card-container{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.small__card-photo > img{
+  height:100px;
+  width:200px;
+}
+
+.small__card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__small-card-separator > hr{
+  color: red;
+  margin-top: 10px;
+}
