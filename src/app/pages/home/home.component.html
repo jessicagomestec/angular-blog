@@ -1,32 +1,37 @@
 
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
+
 
 <app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="articles__main">
-      <app-big-card photoCover="./assets/placeholder.png"
+      <app-big-card
+      Id="1"
+      photoCover="./assets/placeholder.png"
       cardTitle="USANDO COMPONENTES DIRETAMENTE NA PÁGINA HTML"
       cardDescription="Primeiro devemos declarar no component ts com o @Input, que é uma propriedade do Angular
       para poder chamar dentro da tag"
       ></app-big-card>
       <br/>
+
       <app-big-card photoCover="./assets/placeholder.png"
       cardTitle="PODEMOS COPIAR SOMENTE A TAG E TROCAR O CONTEÚDO"
       cardDescription="Com isso facilita na hora da criação deixando assim mais dinamico"
       ></app-big-card>
   </div>
+
   <div class="articles__others">
     <app-small-card
+    Id="2"
     photoCover="./assets/pc.jpeg"
     cardTilte="PRIMEIRO CARDTITLE DESACLOPADO"
     ></app-small-card>
     <app-small-card
+    Id="3"
     photoCover="./assets/pc.jpeg"
     cardTilte="SEGUNDO CARTITLE"
     ></app-small-card>
     <app-small-card
+    Id="4"
     photoCover="./assets/pc.jpeg"
     cardTilte="TERCEIRO CARTITLE"
     ></app-small-card>
