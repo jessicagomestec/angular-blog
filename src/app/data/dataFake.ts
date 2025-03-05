@@ -35,4 +35,16 @@ export const dataFake = [
     "description":"adicionar tudo dinamicamente",
     "photoCover":""
   },
+  {
+    "id":"7",
+    "title":"footer 3",
+    "description":"adicionar tudo dinamicamente",
+    "photoCover":""
+  },
+  {
+    "id":"8",
+    "title":"footer 3",
+    "description":"adicionar tudo dinamicamente",
+    "photoCover":""
+  },
 ]

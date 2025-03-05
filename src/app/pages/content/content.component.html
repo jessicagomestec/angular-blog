@@ -1,11 +1,15 @@
-<div class="container__content">
-  <a [routerLink]="['']" class="container__voltar"> <-- Voltar</a>
-  <div class="container__cover">
+<div class="container__content"
+ [ngClass]="{'white-background': getBackgroundColor() === 'white'}">
+  <a [routerLink]="['']" class="container__voltar"
+  [ngClass]="{'black-color': getColor() === 'black'}"
+  > <-- Voltar</a>
+  <div class="container__cover" >
 
     <img src="{{photoCover}}" alt="" srcset="">
   </div>
-  <div class="container__title">
-    <h1>{{contentTitle}}</h1>
+  <div class="container__title"
+  [ngClass]="{'black-background': getColor() === 'black'}" >
+    <h1 >{{contentTitle}}</h1>
   </div>
   <div class="container__description">
     <p>{{contentDesciption}}</p>

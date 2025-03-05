@@ -18,6 +18,10 @@ export class ContentComponent implements OnInit {
   private id:string | null = "0"
 
 
+
+
+
+
   constructor(
     private route:ActivatedRoute
   ) { }
@@ -40,5 +44,12 @@ export class ContentComponent implements OnInit {
     this.photoCover = result.photoCover
   }
 
+  getBackgroundColor(): string {
+    return parseInt(this.id || '0') >= 5 ? 'white' : 'initial';
+  }
+
+  getColor(): string {
+    return parseInt(this.id || '0') >= 5 ? 'black' : 'initial';
+  }
 
 }

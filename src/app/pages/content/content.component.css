@@ -11,6 +11,12 @@
 
 }
 
+.white-background {
+  background-color: white;
+}
+
+
+
 .container__cover > img{
   width: 500px;
   min-width: 500px;
@@ -27,10 +33,17 @@
 .container__voltar{
   color: white;
 }
+.black-color  {
+  color: black;
+}
 
 .container__title > h1{
   color: white;
 
+}
+
+.black-background > h1 {
+  color: black;
 }
 
 .container__description >p {
