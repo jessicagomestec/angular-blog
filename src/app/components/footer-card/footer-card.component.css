@@ -1,0 +1,40 @@
+.container__big-card{
+
+  width: 400px;
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  }
+
+
+  .big-card-title > h1{
+    font-size: 20px;
+    padding-top: 10px;
+
+  }
+
+  .big-card-title > h1 >a{
+
+    color: white;
+  }
+    .big-card__discription {
+
+      padding-top: 10px;
+    }
+
+    .big-card__discription > p >a{
+      color:gray;
+    }
+
+    .big-card__photo >img{
+      width: 100%;
+      min-width: 400px;
+    }
+
+  .big-card__photo >img:hover{
+    background-color: aquamarine;
+  }

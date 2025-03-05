@@ -1,12 +1,13 @@
 .container__content{
-  border: solid 1px white;
+
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #111111;
 
 }
 
@@ -20,7 +21,16 @@
 }
 
 .container__description {
-  margin-top: 10px;
+ padding-top: 10px;
+}
+
+.container__voltar{
+  color: white;
+}
+
+.container__title > h1{
+  color: white;
+
 }
 
 .container__description >p {

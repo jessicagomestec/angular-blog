@@ -1,0 +1,18 @@
+.container__footer  {
+  border: 1px solid rgb(244, 32, 32);
+  background-color: aliceblue;
+  height: 100vh;
+  padding: 30px;
+  color: grey;
+}
+
+.container__footer-card{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+
+}

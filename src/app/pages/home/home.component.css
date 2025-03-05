@@ -1,7 +1,23 @@
 .container__articles{
-  margin-top: 10px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
+  justify-content: space-evenly;
+
 }
 
+.container__footer-content{
+  background-color: aliceblue;
+  height: 600px;
+  color: black;
+}
+  .container__articles{
+    background-color: #111111;
+  color: white;
+  }
+
+  .container-title{
+    background-color: #111111;
+    color: white;
+  }

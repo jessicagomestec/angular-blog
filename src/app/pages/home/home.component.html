@@ -1,7 +1,9 @@
 
+<div class="container-title">
+  <app-menu-title></app-menu-title>
+</div>
 
 
-<app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="articles__main">
       <app-big-card
@@ -11,12 +13,7 @@
       cardDescription="Primeiro devemos declarar no component ts com o @Input, que é uma propriedade do Angular
       para poder chamar dentro da tag"
       ></app-big-card>
-      <br/>
 
-      <app-big-card photoCover="./assets/placeholder.png"
-      cardTitle="PODEMOS COPIAR SOMENTE A TAG E TROCAR O CONTEÚDO"
-      cardDescription="Com isso facilita na hora da criação deixando assim mais dinamico"
-      ></app-big-card>
   </div>
 
   <div class="articles__others">
@@ -37,3 +34,6 @@
     ></app-small-card>
   </div>
 </div>
+
+    <app-footer></app-footer>
+

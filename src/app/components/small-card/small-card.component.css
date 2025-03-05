@@ -1,6 +1,5 @@
 .container__small-card{
-  border: 1px solid #e0e0e0;
-  width: 100%;
+
   margin-bottom: 10px;
 
 }
@@ -21,9 +20,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+.small__card-title >h1 >a{
+  color: white;
+  font-size: 20px;
+
 }
 
 .container__small-card-separator > hr{
-  color: red;
-  margin-top: 10px;
+
+padding-top: 10px;
 }

@@ -13,4 +13,11 @@ padding-top: 10px;
   list-style: none;
   margin-right: 20px;
 
+
+}
+
+.container__menu-bar > ul > li >a{
+
+  color: white;
+
 }
