@@ -34,6 +34,7 @@
     .footer-card__photo >img{
       width: 100%;
       min-width: 200px;
+      border-radius: 20px;
     }
 
   .footer-card__photo >img:hover{
